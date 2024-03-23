@@ -10,7 +10,7 @@
   --gray: #A1A1A1;
 }
 
-.body {
+.main {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1.3rem;
@@ -44,7 +44,8 @@ h1, h2 {
 }
 
 .header__name {
-  color: var(--danger-color);
+  font-size: 1.5rem;
+  color: var(--off-white);
 }
 
 .header__link {
@@ -89,7 +90,7 @@ h1, h2 {
   text-align: center;
 }
 
-.section.hero > .call-to-action {
+.hero__call-to-action {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
@@ -97,7 +98,7 @@ h1, h2 {
   margin: 0;
 }
 
-.section.hero > button {
+.hero__button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
@@ -106,7 +107,11 @@ h1, h2 {
   cursor: pointer;
 }
 
-.main article {
+.hrefs {
+  color: var(--danger-color)
+}
+
+.main > .article {
   padding: 48px 96px;
 }
 
